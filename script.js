@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let next=document.getElementById("next");
-let previous=document.getElementById("previous")
+let previous=document.getElementById("prev")
 let i=2;
 next.addEventListener("click",()=>{
   if(i<6)
