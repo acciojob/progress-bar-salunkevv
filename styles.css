@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    border: 3px solid gray;
+    flex-grow: 1;
+}
+.circlecont{
+    display: flex;
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#next{
+    margin-left: 40px;
+    background-color:dodgerblue;
+}
+#previous{
+    background-color: dodgerblue;
+
+margin-left: 45%;
+}
+.circle.active ,.line.active{
+    border: 3px solid rgb(234, 10, 10);
+}
